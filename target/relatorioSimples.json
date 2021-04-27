@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2326681800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Consultar Petisco",
+        "description": "",
+        "id": ":-consulta;consultar-petisco",
+        "after": [
+          {
+            "result": {
+              "duration": 745200900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5510637400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "que acesso a Cobasi",
+            "match": {
+              "location": "Post.queAcessoACobasi()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6722471900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "pesquiso por \"Petisco\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Petisco",
+                  "offset": 14
+                }
+              ],
+              "location": "Post.pesquisoPor(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11407800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "exibe a expressao \"Petisco - Cobasi\" no titulo da guia",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Petisco - Cobasi",
+                  "offset": 19
+                }
+              ],
+              "location": "Post.exibeAExpressaoNoTituloDaGuia(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": ": Consulta",
+    "description": "",
+    "id": ":-consulta",
+    "keyword": "Feature",
+    "uri": "Post.feature"
+  }
+]
