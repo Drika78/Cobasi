@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 2326681800,
+  "duration": 2053876900,
   "status": "passed"
 });
 formatter.scenario({
@@ -37,7 +37,7 @@ formatter.match({
   "location": "Post.queAcessoACobasi()"
 });
 formatter.result({
-  "duration": 5510637400,
+  "duration": 5494276800,
   "status": "passed"
 });
 formatter.match({
@@ -50,7 +50,7 @@ formatter.match({
   "location": "Post.pesquisoPor(String)"
 });
 formatter.result({
-  "duration": 6722471900,
+  "duration": 6719964400,
   "status": "passed"
 });
 formatter.match({
@@ -63,11 +63,11 @@ formatter.match({
   "location": "Post.exibeAExpressaoNoTituloDaGuia(String)"
 });
 formatter.result({
-  "duration": 11407800,
+  "duration": 7652200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 745200900,
+  "duration": 771059000,
   "status": "passed"
 });
 });
